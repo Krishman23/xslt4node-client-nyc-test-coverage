@@ -11,7 +11,7 @@ describe("Test nyc",function(){
                 indent: 'yes'
             }
         };
-       // var result=transformxlst(config)
+       var result=transformxlst(config)
        // console.log(result);
        expect("string").to.be.a("string");
         done();
